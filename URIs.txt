@@ -1,0 +1,188 @@
+
+---------- Forwarded message ----------
+From: Hammock, Jennifer <HammockJ@si.edu>
+Date: Wed, Jul 12, 2017 at 5:10 PM
+Subject: sample resource with all columns
+To: "developers@eol.org" <developers@eol.org>
+
+The attached resource is a late EOLv2 file in the spreadsheet template, so it is displays all available columns from v2.  
+
+Several of these have never been used, and we have already found one item that should be revised (the primary key in the references file should be http://eol.org/schema/reference/referenceID.) I flagged a few more below that I think have not been used and that I consider "irregular" (not from our usual terms providers. 
+
+I wonder- what is the cost associated with maintaining columns we do not use? Should Katja and I review these and identify more columns that can be discarded? I'm happy to discuss this in more detail if that will help.
+
+Jen
+
+
+taxa:
+
+http://rs.tdwg.org/dwc/terms/taxonID 
+http://rs.tdwg.org/dwc/terms/scientificName 
+http://rs.tdwg.org/dwc/terms/parentNameUsageID 
+http://rs.tdwg.org/dwc/terms/kingdom 
+http://rs.tdwg.org/dwc/terms/phylum 
+http://rs.tdwg.org/dwc/terms/class 
+http://rs.tdwg.org/dwc/terms/order 
+http://rs.tdwg.org/dwc/terms/family 
+http://rs.tdwg.org/dwc/terms/genus 
+http://rs.tdwg.org/dwc/terms/taxonRank 
+http://rs.tdwg.org/ac/terms/furtherInformationURL 
+http://rs.tdwg.org/dwc/terms/taxonomicStatus 
+http://rs.tdwg.org/dwc/terms/taxonRemarks 
+http://rs.tdwg.org/dwc/terms/namePublishedIn 
+http://eol.org/schema/reference/referenceID
+
+common names:
+
+http://rs.tdwg.org/dwc/terms/taxonID 
+http://rs.tdwg.org/dwc/terms/vernacularName 
+http://purl.org/dc/terms/source 
+http://purl.org/dc/terms/language 
+http://rs.tdwg.org/dwc/terms/locality 
+http://rs.tdwg.org/dwc/terms/countryCode 
+http://rs.gbif.org/terms/1.0/isPreferredName 
+http://rs.tdwg.org/dwc/terms/taxonRemarks
+
+media:
+
+http://purl.org/dc/terms/identifier 
+http://rs.tdwg.org/dwc/terms/taxonID 
+http://purl.org/dc/terms/type 
+http://rs.tdwg.org/audubon_core/subtype 
+http://purl.org/dc/terms/format 
+http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm 
+http://purl.org/dc/terms/title
+http://purl.org/dc/terms/description 
+http://rs.tdwg.org/ac/terms/accessURI 
+http://eol.org/schema/media/thumbnailURL 
+http://rs.tdwg.org/ac/terms/furtherInformationURL 
+http://rs.tdwg.org/ac/terms/derivedFrom 
+http://ns.adobe.com/xap/1.0/CreateDate 
+http://purl.org/dc/terms/modified 
+http://purl.org/dc/terms/language 
+http://ns.adobe.com/xap/1.0/Rating 
+http://purl.org/dc/terms/audience 
+http://ns.adobe.com/xap/1.0/rights/UsageTerms 
+http://purl.org/dc/terms/rights 
+http://ns.adobe.com/xap/1.0/rights/Owner 
+http://purl.org/dc/terms/bibliographicCitation 
+http://purl.org/dc/terms/publisher 
+http://purl.org/dc/terms/contributor 
+http://purl.org/dc/terms/creator 
+http://eol.org/schema/agent/agentID 
+http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/LocationCreated 
+http://purl.org/dc/terms/spatial 
+http://www.w3.org/2003/01/geo/wgs84_pos#lat (irregular and may not be in use- discard?)
+http://www.w3.org/2003/01/geo/wgs84_pos#long (irregular and may not be in use- discard?)
+http://www.w3.org/2003/01/geo/wgs84_pos#alt (irregular and may not be in use- discard?)
+http://eol.org/schema/reference/referenceID
+
+references:
+
+http://purl.org/dc/terms/identifier (should be replaced by http://eol.org/schema/reference/referenceID)
+http://eol.org/schema/reference/publicationType 
+http://eol.org/schema/reference/full_reference 
+http://eol.org/schema/reference/primaryTitle 
+http://purl.org/dc/terms/title 
+http://purl.org/ontology/bibo/pages 
+http://purl.org/ontology/bibo/pageStart 
+http://purl.org/ontology/bibo/pageEnd 
+http://purl.org/ontology/bibo/volume 
+http://purl.org/ontology/bibo/edition 
+http://purl.org/dc/terms/publisher 
+http://purl.org/ontology/bibo/authorList 
+http://purl.org/ontology/bibo/editorList 
+http://purl.org/dc/terms/created 
+http://purl.org/dc/terms/language 
+http://purl.org/ontology/bibo/uri 
+http://purl.org/ontology/bibo/doi 
+http://schemas.talis.com/2005/address/schema#localityName (irregular and may not be in use- discard?)
+
+agents:
+
+http://purl.org/dc/terms/identifier 
+http://xmlns.com/foaf/spec/#term_name 
+http://xmlns.com/foaf/spec/#term_firstName 
+http://xmlns.com/foaf/spec/#term_familyName 
+http://eol.org/schema/agent/agentRole 
+http://xmlns.com/foaf/spec/#term_mbox 
+http://xmlns.com/foaf/spec/#term_homepage 
+http://xmlns.com/foaf/spec/#term_logo 
+http://xmlns.com/foaf/spec/#term_currentProject 
+http://eol.org/schema/agent/organization 
+http://xmlns.com/foaf/spec/#term_accountName 
+http://xmlns.com/foaf/spec/#term_openid
+
+occurrences:
+
+http://rs.tdwg.org/dwc/terms/occurrenceID 
+http://rs.tdwg.org/dwc/terms/taxonID 
+http://rs.tdwg.org/dwc/terms/eventID 
+http://rs.tdwg.org/dwc/terms/institutionCode 
+http://rs.tdwg.org/dwc/terms/collectionCode 
+http://rs.tdwg.org/dwc/terms/catalogNumber 
+http://rs.tdwg.org/dwc/terms/sex 
+http://rs.tdwg.org/dwc/terms/lifeStage 
+http://rs.tdwg.org/dwc/terms/reproductiveCondition 
+http://rs.tdwg.org/dwc/terms/behavior 
+http://rs.tdwg.org/dwc/terms/establishmentMeans 
+http://rs.tdwg.org/dwc/terms/occurrenceRemarks 
+http://rs.tdwg.org/dwc/terms/individualCount 
+http://rs.tdwg.org/dwc/terms/preparations 
+http://rs.tdwg.org/dwc/terms/fieldNotes 
+http://rs.tdwg.org/dwc/terms/samplingProtocol 
+http://rs.tdwg.org/dwc/terms/samplingEffort 
+http://rs.tdwg.org/dwc/terms/recordedBy 
+http://rs.tdwg.org/dwc/terms/identifiedBy 
+http://rs.tdwg.org/dwc/terms/dateIdentified 
+http://rs.tdwg.org/dwc/terms/eventDate 
+http://purl.org/dc/terms/modified 
+http://rs.tdwg.org/dwc/terms/locality 
+http://rs.tdwg.org/dwc/terms/decimalLatitude 
+http://rs.tdwg.org/dwc/terms/decimalLongitude 
+http://rs.tdwg.org/dwc/terms/verbatimLatitude 
+http://rs.tdwg.org/dwc/terms/verbatimLongitude 
+http://rs.tdwg.org/dwc/terms/verbatimElevation 
+
+measurementOrFact:
+
+http://rs.tdwg.org/dwc/terms/measurementID 
+http://rs.tdwg.org/dwc/terms/occurrenceID 
+http://eol.org/schema/measurementOfTaxon (used chiefly for supporting nonstandard metadata)
+http://eol.org/schema/associationID 
+http://eol.org/schema/parentMeasurementID (used chiefly for supporting nonstandard metadata)
+http://rs.tdwg.org/dwc/terms/measurementType 
+http://rs.tdwg.org/dwc/terms/measurementValue 
+http://rs.tdwg.org/dwc/terms/measurementUnit 
+http://rs.tdwg.org/dwc/terms/measurementAccuracy 
+http://eol.org/schema/terms/statisticalMethod 
+http://rs.tdwg.org/dwc/terms/measurementDeterminedDate 
+http://rs.tdwg.org/dwc/terms/measurementDeterminedBy 
+http://rs.tdwg.org/dwc/terms/measurementMethod 
+http://rs.tdwg.org/dwc/terms/measurementRemarks 
+http://purl.org/dc/terms/source 
+http://purl.org/dc/terms/bibliographicCitation 
+http://purl.org/dc/terms/contributor 
+http://eol.org/schema/reference/referenceID
+
+associations:
+
+http://eol.org/schema/associationID 
+http://rs.tdwg.org/dwc/terms/occurrenceID 
+http://eol.org/schema/associationType 
+http://eol.org/schema/targetOccurrenceID 
+http://rs.tdwg.org/dwc/terms/measurementDeterminedDate 
+http://rs.tdwg.org/dwc/terms/measurementDeterminedBy 
+http://rs.tdwg.org/dwc/terms/measurementMethod 
+http://rs.tdwg.org/dwc/terms/measurementRemarks 
+http://purl.org/dc/terms/source 
+http://purl.org/dc/terms/bibliographicCitation 
+http://purl.org/dc/terms/contributor 
+http://eol.org/schema/reference/referenceID
+
+
+-- 
+You received this message because you are subscribed to the Google Groups "Developers" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to developers+unsubscribe@eol.org.
+For more options, visit https://groups.google.com/a/eol.org/d/optout.
+

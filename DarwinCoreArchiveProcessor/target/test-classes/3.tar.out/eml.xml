@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.1'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:dc='http://purl.org/dc/terms/'
+  xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0/eml.xsd'
+  xml:lang='en'
+  packageId='' system='http://gbif.org' scope='system'>
+
+  <dataset>
+    <title xml:lang='en'>3i - Typhlocybinae Database</title>
+
+    <creator>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://ctap.inhs.uiuc.edu/dmitriev/</onlineUrl>
+    </creator>
+
+    <metadataProvider>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://ctap.inhs.uiuc.edu/dmitriev/</onlineUrl>
+    </metadataProvider>
+
+    <pubDate>2013-11-18</pubDate>
+    <language>en</language>
+    <abstract>
+      <para>World Typhlocybinae database</para>
+    </abstract>
+    <additionalInfo>
+      <para>No</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>CC-BY</para>
+    </intellectualRights>
+    <distribution scope='document'>
+      <online>
+      <url function='information'>http://imperialis.inhs.illinois.edu/dmitriev/3i.asp</url>
+      </online>
+    </distribution>
+
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Geographic Coverage</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-172.43194</westBoundingCoordinate>
+          <eastBoundingCoordinate>178.7</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.4300761509</northBoundingCoordinate>
+          <southBoundingCoordinate>-42</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>Taxonomic Coverage</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Subfamily</taxonRankName>
+          <taxonRankValue>Typhlocybinae</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+
+    <contact>
+      <individualName>
+        <givenName>Dmitry</givenName>
+        <surName>Dmitriev</surName>
+      </individualName>
+      <organizationName>University of Illinois at Urbana-Champaign, Illinois Natural History Survey</organizationName>
+      <positionName>Insect Systematist</positionName>
+      <address>
+        <deliveryPoint>1816 S. Oak St.</deliveryPoint>
+        <city>Champaign</city>
+        <administrativeArea>Illinois</administrativeArea>
+        <postalCode>61820</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>1-217-244-9578</phone>
+      <electronicMailAddress>arboridia@gmail.com</electronicMailAddress>
+      <onlineUrl>http://ctap.inhs.uiuc.edu/dmitriev/</onlineUrl>
+    </contact>
+
+  </dataset>
+
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2013-11-18T10:47:48</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <resourceLogoUrl>http://imperialis.inhs.illinois.edu/dmitriev/images/3i_logo.gif</resourceLogoUrl>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+
+</eml:eml>

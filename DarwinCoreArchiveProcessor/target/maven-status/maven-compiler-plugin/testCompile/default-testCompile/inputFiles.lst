@@ -1,0 +1,9 @@
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/handlers/DwcaHandlerTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/rules/ValidationRuleTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/rules/MetaFileValidationRuleTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/rules/FieldValidationRuleTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/functions/ValidationFunctionsTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/MyArchiveFile.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/rules/RowValidationRuleTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/functions/MediaValidationFunctionsTest.java
+/home/ba/Harvester/DarwinCoreArchiveProcessor/src/test/java/org/bibalex/eol/dwca/validation/rules/ValidationRulesLoaderTest.java

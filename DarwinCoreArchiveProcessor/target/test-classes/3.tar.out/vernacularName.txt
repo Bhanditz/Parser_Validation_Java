@@ -1,0 +1,19 @@
+18980	Potato leafhopper	en
+19343	Apple leafhopper	en
+7201	Amaltas leafhopper	en
+8392	Variegated leafhopper	en
+7255	Eastern grape leafhopper	en
+7406	Western grape leafhopper	en
+7934	8-spotted leafhopper	en
+8336	Threebanded leafhopper	en
+8418	Grapevine leafhopper	en
+8465	Virginiacreeper leafhopper	en
+7314	decorata	
+18939	Scarlet leafhopper of pine	en
+20912	Apple leafhopper	en
+20912	Australian apple leafhopper	en
+20912	Canary fly	en
+21020	Prune leafhopper	en
+19351	Rose leafhopper	en
+21061	Bramble leafhopper	en
+19002	White apple leafhopper	en

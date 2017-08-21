@@ -1,0 +1,9 @@
+org/bibalex/eol/dwca/validation/rules/ValidationRuleTest.class
+org/bibalex/eol/handlers/DwcaHandlerTest.class
+org/bibalex/eol/dwca/validation/rules/MetaFileValidationRuleTest.class
+org/bibalex/eol/dwca/validation/functions/MediaValidationFunctionsTest.class
+org/bibalex/eol/dwca/validation/rules/FieldValidationRuleTest.class
+org/bibalex/eol/dwca/validation/rules/ValidationRulesLoaderTest.class
+org/bibalex/eol/dwca/validation/rules/RowValidationRuleTest.class
+org/bibalex/eol/dwca/validation/functions/ValidationFunctionsTest.class
+org/bibalex/eol/MyArchiveFile.class
